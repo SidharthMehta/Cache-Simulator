@@ -23,7 +23,7 @@ Simulator uses least replacement policy(LRU)
 Simulator uses Write-back Write-allocate(WBWA) policy
 
 ## Running the simulator
-$./sim_cache <BLOCKSIZE> <L1_Size> <L1_ASSOC> <L2_SIZE> <L2_ASSOC> <L2_Data_Blocks> <L2_Addr_Tags> <Trace_file>
+**$./sim_cache \<BLOCKSIZE> <L1_Size> <L1_ASSOC> <L2_SIZE> <L2_ASSOC> <L2_Data_Blocks> <L2_Addr_Tags> <Trace_file>**
 
 e.g.
 $./sim_cache 64 1024 2 65536 8 8 2 gcc_trace.txt

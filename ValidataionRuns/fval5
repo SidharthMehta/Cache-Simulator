@@ -625,7 +625,7 @@ set	32:	0,I,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 ||
 set	33:	2,V,D		2,V,D		0,I,N		0,I,N		0,I,N		2,V,D		2,V,D		2,V,D	 || 
 set	34:	2,V,D		2,V,D		2,V,D		0,I,N		0,I,N		0,I,N		2,V,D		0,I,N	 || 
 set	35:	2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
-set	36:	2,V,N		2,V,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		1,V,D	 || 
+set	36:	2,V,D		2,V,D		0,I,N		0,I,N		0,I,N		2,V,D		1,V,D		1,V,D	 || 
 set	37:	1,V,D		0,I,N		0,I,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,N	 || 
 set	38:	2,V,D		2,V,D		2,V,D		2,V,D		0,I,N		0,I,N		0,I,N		2,V,D	 || 
 set	39:	2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
@@ -704,12 +704,12 @@ set	111:	0,I,N		0,V,N		0,V,N		0,V,N		0,V,N		0,V,N		0,V,N		0,I,N	 ||
 set	112:	0,I,N		0,I,N		0,I,N		3,V,D		3,V,D		0,I,N		0,I,N		0,I,N	 || 
 set	113:	0,I,N		0,I,N		0,I,N		3,V,D		0,I,N		0,I,N		0,I,N		3,V,D	 || 
 set	114:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,V,N		0,V,N		0,V,N	 || 
-set	115:	0,I,N		0,I,N		0,I,N		3,V,D		0,I,N		0,I,N		0,I,N		3,V,D	 || 
-set	116:	3,V,D		0,I,N		3,V,D		3,V,D		0,I,N		0,I,N		0,I,N		3,V,D	 || 
-set	117:	0,I,N		0,I,N		0,V,N		0,I,N		0,I,N		0,I,N		1,V,N		3,V,D	 || 
-set	118:	3,V,D		0,I,N		1,V,N		0,I,N		1,V,D		1,V,N		1,V,N		0,V,N	 || 
-set	119:	0,I,N		0,I,N		0,I,N		1,V,D		3,V,D		0,I,N		0,I,N		1,V,D	 || 
-set	120:	0,I,N		1,V,D		1,V,D		0,I,N		1,V,D		0,I,N		0,I,N		3,V,D	 || 
+set	115:	0,V,N		0,V,N		0,V,N		3,V,D		0,V,N		0,V,N		0,V,N		3,V,D	 || 
+set	116:	3,V,D		0,I,N		3,V,D		3,V,D		0,I,N		0,I,N		3,V,D		3,V,D	 || 
+set	117:	0,I,N		0,V,N		0,V,N		0,I,N		0,I,N		0,I,N		1,V,N		3,V,D	 || 
+set	118:	3,V,D		1,V,N		1,V,N		1,V,N		1,V,D		1,V,N		1,V,N		0,V,N	 || 
+set	119:	0,I,N		0,V,N		0,V,N		1,V,D		3,V,D		0,I,N		0,V,N		1,V,D	 || 
+set	120:	1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		0,V,N		0,V,N		3,V,D	 || 
 set	121:	0,V,N		0,V,N		0,I,N		0,I,N		3,V,D		0,I,N		3,V,D		0,I,N	 || 
 set	122:	0,V,N		0,I,N		0,V,N		0,V,N		0,V,N		0,V,N		0,V,N		3,V,D	 || 
 set	123:	3,V,D		0,V,N		3,V,N		0,V,N		0,I,N		0,V,N		0,V,N		0,V,N	 || 
@@ -843,19 +843,19 @@ set	250:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,V,N		0,V,N		0,V,N	 ||
 set	251:	0,V,N		0,V,N		0,V,N		0,I,N		0,I,N		0,V,N		0,V,N		0,V,N	 || 
 set	252:	0,V,N		0,V,N		0,V,N		0,V,N		0,I,N		0,V,N		0,V,N		0,V,N	 || 
 set	253:	0,V,N		0,V,N		0,V,N		0,V,N		0,V,N		0,V,N		0,V,N		0,V,N	 || 
-set	254:	0,V,N		0,I,N		0,V,N		0,V,N		0,V,N		0,I,N		0,I,N		2,V,N	 || 
-set	255:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		2,V,N	 || 
-set	256:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		2,V,N	 || 
-set	257:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		2,V,N	 || 
-set	258:	0,I,N		0,I,N		0,I,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N	 || 
-set	259:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		2,V,N	 || 
-set	260:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		2,V,N	 || 
-set	261:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		2,V,N	 || 
-set	262:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		2,V,N	 || 
-set	263:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		2,V,N	 || 
-set	264:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		2,V,N	 || 
-set	265:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		2,V,N		2,V,N	 || 
-set	266:	0,I,N		2,V,N		0,V,N		0,V,N		0,V,N		0,I,N		0,I,N		0,I,N	 || 
+set	254:	0,V,N		0,I,N		0,V,N		0,V,N		0,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	255:	2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	256:	2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	257:	2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	258:	2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	259:	2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	260:	2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	261:	2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	262:	2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	263:	2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	264:	2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	265:	2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	266:	2,V,N		2,V,N		0,V,N		0,V,N		0,V,N		0,I,N		0,I,N		0,I,N	 || 
 set	267:	0,I,N		0,I,N		0,I,N		0,V,N		0,V,N		0,I,N		0,I,N		0,I,N	 || 
 set	268:	0,I,N		0,V,N		0,I,N		0,I,N		0,I,N		0,I,N		0,V,N		0,I,N	 || 
 set	269:	0,I,N		0,V,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N	 || 
@@ -948,12 +948,12 @@ set	355:	2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,N		2,V,D	 ||
 set	356:	2,V,D		2,V,D		2,V,D		2,V,D		0,I,N		2,V,D		2,V,D		2,V,D	 || 
 set	357:	2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
 set	358:	2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
-set	359:	2,V,D		2,V,D		0,I,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
+set	359:	2,V,D		2,V,D		2,V,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
 set	360:	1,V,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
 set	361:	2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		1,V,N		2,V,D		2,V,N	 || 
 set	362:	2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
-set	363:	2,V,D		0,I,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,N	 || 
-set	364:	2,V,D		2,V,D		0,I,N		2,V,D		2,V,D		0,I,N		2,V,D		2,V,D	 || 
+set	363:	2,V,D		2,V,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
+set	364:	2,V,D		2,V,D		2,V,N		2,V,D		2,V,D		2,V,N		2,V,D		2,V,D	 || 
 set	365:	2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
 set	366:	2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
 set	367:	0,I,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
@@ -966,57 +966,57 @@ set	373:	2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,N		2,V,D		2,V,D	 ||
 set	374:	2,V,D		2,V,D		2,V,D		0,I,N		2,V,D		2,V,D		2,V,D		2,V,D	 || 
 set	375:	2,V,D		2,V,D		2,V,D		2,V,D		2,V,N		2,V,D		2,V,D		2,V,D	 || 
 set	376:	2,V,D		2,V,D		0,I,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
-set	377:	2,V,D		2,V,D		1,V,N		0,I,N		2,V,D		2,V,D		2,V,D		2,V,D	 || 
+set	377:	2,V,D		2,V,D		1,V,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
 set	378:	1,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
 set	379:	2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
 set	380:	2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
 set	381:	2,V,D		2,V,D		2,V,D		0,I,N		2,V,D		2,V,D		2,V,D		2,V,D	 || 
 set	382:	2,V,D		2,V,N		2,V,N		2,V,D		2,V,N		2,V,D		2,V,D		2,V,D	 || 
 set	383:	2,V,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
-set	384:	2,V,D		2,V,D		0,I,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
-set	385:	1,V,D		2,V,D		0,I,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
-set	386:	2,V,D		0,I,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		1,V,D	 || 
-set	387:	2,V,D		0,I,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
-set	388:	0,I,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		1,V,D		2,V,D	 || 
-set	389:	2,V,D		2,V,D		0,I,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,N	 || 
-set	390:	2,V,D		2,V,D		0,I,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
-set	391:	0,I,N		2,V,D		0,I,N		0,I,N		2,V,D		0,I,N		2,V,D		2,V,D	 || 
+set	384:	2,V,D		2,V,D		2,V,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
+set	385:	1,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
+set	386:	2,V,D		2,V,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		1,V,D	 || 
+set	387:	2,V,D		2,V,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
+set	388:	2,V,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		1,V,D		2,V,D	 || 
+set	389:	2,V,D		2,V,D		2,V,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,N	 || 
+set	390:	2,V,D		2,V,D		2,V,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
+set	391:	2,V,N		2,V,D		2,V,N		2,V,D		2,V,D		2,V,N		2,V,D		2,V,D	 || 
 set	392:	2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
-set	393:	2,V,D		2,V,D		0,I,N		0,I,N		2,V,D		2,V,D		2,V,D		2,V,D	 || 
-set	394:	2,V,D		1,V,D		2,V,D		2,V,D		2,V,D		2,V,N		0,I,N		2,V,D	 || 
-set	395:	2,V,D		0,I,N		0,I,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
-set	396:	1,V,D		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		2,V,D		2,V,D	 || 
-set	397:	2,V,D		2,V,D		1,V,D		2,V,D		0,I,N		2,V,D		2,V,D		2,V,D	 || 
-set	398:	0,I,N		2,V,D		0,I,N		0,I,N		0,I,N		2,V,D		2,V,D		2,V,D	 || 
-set	399:	1,V,D		0,I,N		0,I,N		2,V,D		0,I,N		2,V,N		0,I,N		2,V,D	 || 
-set	400:	2,V,D		0,I,N		0,I,N		2,V,D		0,I,N		2,V,D		2,V,D		2,V,D	 || 
-set	401:	1,V,D		2,V,D		0,I,N		2,V,D		2,V,D		2,V,D		2,V,D		0,I,N	 || 
-set	402:	1,V,D		2,V,D		0,I,N		2,V,D		0,I,N		2,V,N		0,I,N		2,V,D	 || 
-set	403:	1,V,D		0,I,N		0,I,N		2,V,D		0,I,N		2,V,N		0,I,N		0,I,N	 || 
-set	404:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		2,V,N		0,I,N		0,I,N	 || 
-set	405:	1,V,D		0,I,N		0,I,N		2,V,D		2,V,D		2,V,N		0,I,N		0,I,N	 || 
-set	406:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		2,V,N		2,V,D		0,I,N	 || 
-set	407:	1,V,D		0,I,N		0,I,N		2,V,D		2,V,N		0,I,N		0,I,N		0,I,N	 || 
-set	408:	2,V,D		0,I,N		0,I,N		1,V,N		2,V,N		0,I,N		0,I,N		2,V,D	 || 
-set	409:	2,V,D		0,I,N		2,V,D		2,V,D		2,V,D		2,V,D		0,I,N		2,V,N	 || 
-set	410:	2,V,D		0,I,N		0,I,N		0,I,N		1,V,D		0,I,N		0,I,N		2,V,D	 || 
-set	411:	2,V,D		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		2,V,N	 || 
-set	412:	0,I,N		0,I,N		0,I,N		1,V,D		0,I,N		0,I,N		0,I,N		2,V,N	 || 
-set	413:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		2,V,N	 || 
-set	414:	0,I,N		0,I,N		1,V,D		0,I,N		0,I,N		0,I,N		2,V,N		0,I,N	 || 
-set	415:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		2,V,N		0,I,N	 || 
-set	416:	0,I,N		0,I,N		0,I,N		0,I,N		2,V,N		0,I,N		0,I,N		0,I,N	 || 
-set	417:	0,I,N		0,I,N		2,V,D		2,V,D		0,I,N		0,I,N		1,V,D		0,I,N	 || 
+set	393:	2,V,D		2,V,D		2,V,D		2,V,N		2,V,D		2,V,D		2,V,D		2,V,D	 || 
+set	394:	2,V,D		1,V,D		2,V,D		2,V,D		2,V,D		2,V,N		2,V,N		2,V,D	 || 
+set	395:	2,V,D		2,V,N		2,V,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D	 || 
+set	396:	1,V,D		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,D		2,V,D	 || 
+set	397:	2,V,D		2,V,D		1,V,D		2,V,D		2,V,N		2,V,D		2,V,D		2,V,D	 || 
+set	398:	2,V,N		2,V,D		2,V,N		2,V,N		2,V,N		2,V,D		2,V,D		2,V,D	 || 
+set	399:	1,V,D		2,V,N		2,V,N		2,V,D		2,V,N		2,V,N		2,V,N		2,V,D	 || 
+set	400:	2,V,D		2,V,N		2,V,N		2,V,D		2,V,N		2,V,D		2,V,D		2,V,D	 || 
+set	401:	1,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,D		2,V,N	 || 
+set	402:	1,V,D		2,V,D		2,V,N		2,V,D		2,V,N		2,V,N		2,V,N		2,V,D	 || 
+set	403:	1,V,D		2,V,N		2,V,N		2,V,D		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	404:	2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	405:	1,V,D		2,V,N		2,V,N		2,V,D		2,V,D		2,V,N		2,V,N		2,V,N	 || 
+set	406:	2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,D		2,V,N	 || 
+set	407:	1,V,D		2,V,N		2,V,N		2,V,D		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	408:	2,V,D		2,V,N		2,V,N		1,V,N		2,V,N		2,V,N		2,V,N		2,V,D	 || 
+set	409:	2,V,D		2,V,N		2,V,D		2,V,D		2,V,D		2,V,D		2,V,N		2,V,N	 || 
+set	410:	2,V,D		2,V,N		2,V,N		2,V,N		1,V,D		2,V,N		2,V,N		2,V,D	 || 
+set	411:	2,V,D		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	412:	2,V,N		2,V,N		2,V,N		1,V,D		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	413:	2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	414:	2,V,N		2,V,N		1,V,D		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	415:	2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	416:	2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N		2,V,N	 || 
+set	417:	2,V,N		2,V,N		2,V,D		2,V,D		2,V,N		2,V,N		1,V,D		2,V,N	 || 
 set	418:	2,V,N		1,V,D		0,I,N		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
 set	419:	1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
 set	420:	1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
 set	421:	1,V,N		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
 set	422:	1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
 set	423:	1,V,D		1,V,D		1,V,D		1,V,N		1,V,D		1,V,D		1,V,D		1,V,D	 || 
-set	424:	1,V,N		0,I,N		0,I,N		0,V,N		0,I,N		0,V,N		0,I,N		0,I,N	 || 
-set	425:	0,I,N		0,I,N		0,I,N		0,V,D		1,V,N		0,I,N		0,I,N		0,I,N	 || 
+set	424:	1,V,D		1,V,D		1,V,D		0,V,D		1,V,D		0,V,N		1,V,D		1,V,D	 || 
+set	425:	0,V,D		1,V,D		1,V,D		0,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
 set	426:	1,V,D		0,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
-set	427:	0,V,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N	 || 
+set	427:	0,V,N		1,V,D		0,I,N		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
 set	428:	1,V,D		1,V,D		1,V,D		1,V,N		1,V,D		1,V,D		1,V,D		1,V,D	 || 
 set	429:	1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
 set	430:	1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
@@ -1110,11 +1110,11 @@ d. number of L1 write misses:		1404
 e. L1 miss rate:			0.0505
 f. number of writebacks from L1 memory:	2092
 g. number of L2 reads:			5051
-h. number of L2 read misses:		2696
+h. number of L2 read misses:		2653
 i. number of L2 writes:			2092
-j. number of L2 write misses:		339
+j. number of L2 write misses:		25
 k. number of L2 sector misses: 		363
-l. number of L2 cache block misses: 	2672
-n. L2 miss rate:			0.5338
-o. number of writebacks from L2 memory:	51
-p. total memory traffic:		3086
+l. number of L2 cache block misses: 	2315
+m. L2 miss rate:			0.5252
+n. number of writebacks from L2 memory:	305
+o. total memory traffic:		2983

@@ -1,0 +1,192 @@
+  ===== Simulator configuration =====
+  BLOCKSIZE:                        32
+  L1_SIZE:                          4096
+  L1_ASSOC:                         4
+  L2_SIZE:                          32768
+  L2_ASSOC:                         1
+  L2_DATA_BLOCKS:                   16
+  L2_ADDRESS_TAGS:                  4
+  trace_file:                       perl_trace.txt
+
+===== L1 contents =====
+set	0:	10007b N	||	10006d N	||	10007a D	||	1000b4 D	||
+set	1:	10007b N	||	100035 N	||	1000b4 D	||	100073 N	||
+set	2:	10007b N	||	100035 D	||	1000b4 D	||	1000b3 D	||
+set	3:	1000b0 N	||	10007b N	||	100035 D	||	1000b4 D	||
+set	4:	10006f N	||	10007b N	||	100072 D	||	100035 N	||
+set	5:	100058 D	||	10006f D	||	100035 D	||	10007b N	||
+set	6:	10006f D	||	10007a N	||	100079 N	||	1000b4 D	||
+set	7:	10007a N	||	100035 N	||	1000b4 D	||	1000a1 N	||
+set	8:	10007a N	||	10007b N	||	1000a1 N	||	1000b4 D	||
+set	9:	10006f D	||	10007a N	||	100079 N	||	10007b N	||
+set	10:	10007a N	||	1000ad D	||	1000b3 D	||	1000b2 D	||
+set	11:	10007a D	||	10002e D	||	1000b2 N	||	1000a9 N	||
+set	12:	1ec0cf D	||	10007a D	||	100035 N	||	1000a9 N	||
+set	13:	10006f N	||	1ec0cf D	||	10007a N	||	1000b3 D	||
+set	14:	10007a D	||	1000ad D	||	1000b3 D	||	1000b2 D	||
+set	15:	10007a N	||	1000ad D	||	1000b3 D	||	1000b2 D	||
+set	16:	10006f D	||	10003c D	||	1000b3 D	||	1000ad D	||
+set	17:	1000ad D	||	1000b1 D	||	1000af N	||	1000b3 D	||
+set	18:	1000b1 D	||	1000b3 D	||	1000ad D	||	1000b2 D	||
+set	19:	1ec0cf D	||	100044 D	||	1000b3 D	||	1000ad D	||
+set	20:	10007a N	||	1000b3 D	||	1000ad D	||	1000aa N	||
+set	21:	100008 N	||	10007a N	||	1000b3 D	||	1000ad D	||
+set	22:	100008 N	||	1ec0cf D	||	10005a D	||	10007a N	||
+set	23:	1ec0cf D	||	100064 N	||	1000b3 D	||	1000b2 D	||
+set	24:	10004e D	||	1000b3 D	||	1000af N	||	1000b2 D	||
+set	25:	1000b3 D	||	1000ab N	||	1000b2 D	||	1000b1 D	||
+set	26:	100031 N	||	10004e N	||	10004c N	||	1000b3 D	||
+set	27:	100031 N	||	10004e N	||	10004c D	||	1ec0cf D	||
+set	28:	10007a D	||	1000b3 D	||	1000b2 D	||	1000b1 D	||
+set	29:	10007a N	||	1ec0ce N	||	10004c D	||	10004e D	||
+set	30:	1ec0ce N	||	1000b3 D	||	1000b2 D	||	1000b1 D	||
+set	31:	1000b3 D	||	100074 N	||	100077 N	||	1000b2 D	||
+
+===== L2 Address Array contents =====
+set	0:	2001		2001		0		0	 || 
+set	1:	2001		2001		0		0	 || 
+set	2:	2001		2001		0		0	 || 
+set	3:	2001		2000		0		0	 || 
+set	4:	2001		2000		0		0	 || 
+set	5:	2001		2000		0		0	 || 
+set	6:	2001		0		0		0	 || 
+set	7:	2001		0		0		0	 || 
+set	8:	2001		0		0		2000	 || 
+set	9:	2001		0		2000		2000	 || 
+set	10:	2001		0		0		0	 || 
+set	11:	2001		0		0		0	 || 
+set	12:	0		0		0		0	 || 
+set	13:	0		0		0		0	 || 
+set	14:	0		0		0		0	 || 
+set	15:	0		2001		0		0	 || 
+set	16:	0		2001		0		0	 || 
+set	17:	2000		2001		0		0	 || 
+set	18:	2000		2001		0		0	 || 
+set	19:	0		2001		0		0	 || 
+set	20:	0		2001		0		0	 || 
+set	21:	0		2001		0		0	 || 
+set	22:	0		2001		0		0	 || 
+set	23:	0		2001		0		0	 || 
+set	24:	0		2001		0		0	 || 
+set	25:	0		2001		2000		2000	 || 
+set	26:	0		2001		2000		2000	 || 
+set	27:	2000		2001		2000		2000	 || 
+set	28:	2000		2001		3d81		0	 || 
+set	29:	2000		2001		2000		2000	 || 
+set	30:	2000		2001		3d81		2000	 || 
+set	31:	2000		2001		3d81		2000	 || 
+set	32:	2000		2001		0		2000	 || 
+set	33:	2000		2001		0		2000	 || 
+set	34:	2000		2001		0		2000	 || 
+set	35:	2000		2001		0		2000	 || 
+set	36:	2000		2001		0		2000	 || 
+set	37:	2000		2001		0		2000	 || 
+set	38:	2000		2001		0		2000	 || 
+set	39:	0		2001		0		2000	 || 
+set	40:	0		2001		0		2000	 || 
+set	41:	0		2000		0		2000	 || 
+set	42:	0		2000		0		2000	 || 
+set	43:	0		2000		0		2000	 || 
+set	44:	0		0		0		2000	 || 
+set	45:	2000		0		0		2000	 || 
+set	46:	0		0		0		2000	 || 
+set	47:	2000		0		0		2000	 || 
+set	48:	2000		0		2000		2000	 || 
+set	49:	2000		0		2000		2000	 || 
+set	50:	2000		0		0		2000	 || 
+set	51:	2000		0		0		2000	 || 
+set	52:	2000		0		0		2000	 || 
+set	53:	2000		0		2000		2000	 || 
+set	54:	2000		0		0		2000	 || 
+set	55:	2000		0		0		2000	 || 
+set	56:	2000		0		0		2000	 || 
+set	57:	2000		2000		0		2000	 || 
+set	58:	2000		0		0		2000	 || 
+set	59:	2000		0		0		2000	 || 
+set	60:	2000		0		0		2000	 || 
+set	61:	2000		0		0		2000	 || 
+set	62:	2000		0		0		2000	 || 
+set	63:	2001		0		0		2000	 || 
+
+===== L2 Data Array contents =====
+set	0:	1,V,N		1,V,N		1,V,N		1,V,N		1,V,N		1,V,N		1,V,N		1,V,N		1,V,N		1,V,N		1,V,N		1,V,N		1,V,N		1,V,N		1,V,N		1,V,N	 || 
+set	1:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		1,V,N		1,V,N		1,V,N		1,V,N		1,V,N		1,V,N		1,V,N	 || 
+set	2:	1,V,N		1,V,N		1,V,N		1,V,N		1,V,N		1,V,N		1,V,N		1,V,N		1,V,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,V,D	 || 
+set	3:	0,I,N		0,I,N		0,I,N		1,V,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		1,V,N		1,V,N		1,V,N		0,V,N		0,I,N	 || 
+set	4:	0,I,N		0,V,N		1,V,N		0,I,N		0,V,N		0,V,N		0,I,N		0,I,N		0,I,N		0,I,N		1,V,N		1,V,N		0,V,N		0,I,N		0,V,N		0,V,N	 || 
+set	5:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,V,N		0,V,N		0,I,N		0,V,N		0,I,N		0,V,N		0,V,N		0,I,N	 || 
+set	6:	0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,I,N		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D	 || 
+set	7:	0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,I,N		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,I,N		0,V,D	 || 
+set	8:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,V,D		0,V,D		0,I,N		0,I,N		0,I,N		0,V,N		0,V,N		0,V,D		0,I,N		0,V,N	 || 
+set	9:	0,V,N		0,I,N		0,I,N		2,V,D		0,I,N		0,I,N		0,V,D		3,V,N		0,I,N		0,V,N		0,I,N		3,V,D		0,V,N		0,V,N		0,V,N		0,V,D	 || 
+set	10:	0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,I,N		0,V,D		0,V,D		0,V,D		0,I,N	 || 
+set	11:	0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,V,D		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N	 || 
+set	12:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N	 || 
+set	13:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N	 || 
+set	14:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N	 || 
+set	15:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
+set	16:	1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
+set	17:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,V,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N	 || 
+set	18:	1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
+set	19:	1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
+set	20:	1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
+set	21:	1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
+set	22:	1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
+set	23:	1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
+set	24:	1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
+set	25:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		2,V,D		0,I,N		2,V,D		0,I,N		0,I,N	 || 
+set	26:	3,V,N		0,I,N		1,V,D		0,I,N		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
+set	27:	1,V,N		0,I,N		0,I,N		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		0,I,N		1,V,D		1,V,D		1,V,D		1,V,D	 || 
+set	28:	1,V,D		1,V,D		1,V,D		1,V,D		0,I,N		0,I,N		1,V,D		1,V,D		1,V,D		1,V,N		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
+set	29:	1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		0,I,N		1,V,D		1,V,D		1,V,D		2,V,N		2,V,N		1,V,D		2,V,D		1,V,D		1,V,D	 || 
+set	30:	1,V,D		1,V,D		1,V,D		1,V,D		0,I,N		0,I,N		1,V,D		1,V,D		1,V,D		3,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
+set	31:	1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		0,I,N		2,V,D		1,V,D		0,I,N		1,V,D		1,V,D	 || 
+set	32:	1,V,D		1,V,D		1,V,D		1,V,D		0,I,N		0,I,N		1,V,D		1,V,D		1,V,D		0,I,N		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
+set	33:	1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
+set	34:	1,V,D		1,V,D		1,V,D		1,V,D		0,I,N		0,I,N		1,V,D		1,V,D		1,V,D		0,I,N		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D	 || 
+set	35:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		1,V,D	 || 
+set	36:	1,V,D		1,V,D		1,V,D		1,V,D		3,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,D		1,V,N		1,V,D		1,V,D		1,V,D		1,V,N		1,V,N	 || 
+set	37:	1,V,D		1,V,D		0,I,N		1,V,D		1,V,D		1,V,D		0,I,N		0,I,N		0,I,N		0,I,N		1,V,D		0,I,N		0,I,N		1,V,D		1,V,N		0,I,N	 || 
+set	38:	0,I,N		1,V,D		0,I,N		1,V,D		0,I,N		0,I,N		0,I,N		1,V,D		1,V,D		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N	 || 
+set	39:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		1,V,N	 || 
+set	40:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		1,V,D		0,I,N		0,I,N		1,V,N		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D	 || 
+set	41:	3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D	 || 
+set	42:	3,V,N		0,I,N		0,I,N		0,I,N		1,V,N		1,V,D		0,I,N		0,I,N		0,I,N		3,V,D		0,I,N		0,I,N		1,V,N		0,I,N		0,I,N		0,I,N	 || 
+set	43:	3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D	 || 
+set	44:	3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D	 || 
+set	45:	3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		0,I,N		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D	 || 
+set	46:	3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D	 || 
+set	47:	3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		0,I,N		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D		3,V,D	 || 
+set	48:	3,V,D		3,V,D		3,V,N		0,I,N		2,V,N		2,V,D		3,V,N		2,V,D		2,V,D		0,V,N		0,I,N		2,V,D		2,V,D		3,V,N		2,V,D		3,V,N	 || 
+set	49:	3,V,D		2,V,D		2,V,D		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		3,V,D		3,V,D		3,V,N		0,I,N		0,I,N		3,V,N		3,V,D		0,I,N	 || 
+set	50:	3,V,N		0,I,N		3,V,N		3,V,D		3,V,D		3,V,D		3,V,D		0,I,N		0,I,N		3,V,N		0,V,N		0,I,N		0,I,N		0,I,N		0,V,N		0,I,N	 || 
+set	51:	0,V,N		0,V,N		3,V,N		0,I,N		0,I,N		0,I,N		3,V,D		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		3,V,D		0,I,N		0,I,N	 || 
+set	52:	3,V,D		3,V,D		0,I,N		0,I,N		0,I,N		3,V,N		3,V,N		3,V,N		3,V,N		3,V,N		3,V,N		3,V,D		3,V,D		3,V,N		3,V,N		3,V,N	 || 
+set	53:	0,I,N		0,V,N		0,I,N		0,I,N		0,I,N		0,I,N		2,V,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		3,V,N		0,I,N		0,I,N	 || 
+set	54:	3,V,N		3,V,N		3,V,D		3,V,N		3,V,N		3,V,N		0,I,N		0,I,N		3,V,N		3,V,N		0,V,N		0,I,N		0,I,N		0,I,N		3,V,D		0,I,N	 || 
+set	55:	0,I,N		0,V,N		0,I,N		0,I,N		3,V,N		0,I,N		0,V,N		3,V,D		3,V,N		0,I,N		0,V,N		0,I,N		0,I,N		0,I,N		3,V,N		0,I,N	 || 
+set	56:	0,I,N		0,I,N		0,V,N		0,I,N		0,I,N		0,I,N		0,I,N		0,V,N		0,V,N		0,V,N		0,V,N		3,V,D		0,V,N		0,V,N		0,V,N		0,V,N	 || 
+set	57:	1,V,D		0,I,N		0,V,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		3,V,N		3,V,N		3,V,D		0,I,N		0,I,N		0,I,N		0,I,N		0,V,N	 || 
+set	58:	0,V,N		0,V,N		0,V,N		3,V,D		0,V,N		0,V,N		0,V,N		0,V,N		0,I,N		0,I,N		0,V,N		0,I,N		0,V,N		0,I,N		0,V,N		0,V,N	 || 
+set	59:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,V,N		0,I,N		0,I,N		0,I,N		3,V,N		0,I,N		0,V,N		0,V,N		0,V,N		0,I,N		0,V,N	 || 
+set	60:	0,V,N		0,V,N		0,V,N		0,I,N		0,V,N		0,V,N		0,V,N		0,I,N		0,I,N		0,I,N		3,V,N		3,V,N		3,V,D		0,V,N		0,V,N		0,I,N	 || 
+set	61:	0,I,N		0,I,N		0,I,N		3,V,D		0,V,N		0,V,N		0,I,N		0,V,N		0,V,N		0,V,N		0,V,N		0,V,N		0,V,N		0,V,N		0,V,N		0,V,N	 || 
+set	62:	0,V,N		0,V,N		0,I,N		0,V,N		0,I,N		0,V,N		0,V,N		0,I,N		0,I,N		0,I,N		0,I,N		0,V,N		0,V,N		0,I,N		0,V,N		0,V,N	 || 
+set	63:	0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,I,N		0,V,N		0,V,N		0,V,N		0,V,N		0,V,N		0,V,N	 || 
+
+===== Simulation Results =====
+a. number of L1 reads:			70107
+b. number of L1 read misses:		4404
+c. number of L1 writes:			29893
+d. number of L1 write misses:		1549
+e. L1 miss rate:			0.0595
+f. number of writebacks from L1 memory:	2165
+g. number of L2 reads:			5953
+h. number of L2 read misses:		2570
+i. number of L2 writes:			2165
+j. number of L2 write misses:		595
+k. number of L2 sector misses: 		61
+l. number of L2 cache block misses: 	3104
+n. L2 miss rate:			0.4317
+o. number of writebacks from L2 memory:	373
+p. total memory traffic:		3538

@@ -1,4 +1,4 @@
-# Cache-Simulator
+# Cache Simulator
 
 Project Implements a flexible cache and memory hierarchy simulator and uses it to study the performance of memory hierarchies using the SPEC benchmarks. 
 

@@ -12,7 +12,7 @@ Simulator is capable of implementing 2 level caches with option of L2 being a De
 * L1_Assoc: Associativity of L1 Cache.
 * L2_Size: Total bytes of data storage for L2 Cache.
 * L2_Assoc: Associativity of L2 Cache.
-* L2_Data_Blocks: Number of data blocks in a seector.
+* L2_Data_Blocks: Number of data blocks in a sector.
 * L2_Addr_Tags: Number of address tags pointing to a sector.
 * Trace_file: Input Trace file
 
